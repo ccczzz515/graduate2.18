@@ -1,0 +1,256 @@
+INFO:root:New Task Started...
+INFO:root:Experiment config:
+{
+    "exp_name": "debug_vq_ab_1",
+    "desc": "ablation_exp1",
+    "random_seed": 42,
+    "gpu_idx": 3,
+    "train_ratio": 0.75,
+    "labeled_sample_ratio": 0.4,
+    "batch_size": 32,
+    "main_dataset": "mtl-aqa",
+    "sub_dataset": "all",
+    "initial_threshold": 0.7,  
+    "threshold_decay": 0.998,   
+    "min_threshold": 0.3,      
+    "epochs": 2000,              
+    "lr": 5e-6,                  
+    "pretrain_epochs": 200,      
+    "pretrain_lr": 1e-5,         
+    "decopuling_dim": 64        
+}
+INFO:root:Nums of samples: Labeled Training: 423, Unlabled Training: 636, Test: 353
+INFO:root:Loss Value:0.0026
+INFO:root:Loss Value:0.0023
+INFO:root:Loss Value:0.0021
+INFO:root:Loss Value:0.0019
+INFO:root:Loss Value:0.0018
+INFO:root:Loss Value:0.0016
+INFO:root:Loss Value:0.0015
+INFO:root:Loss Value:0.0014
+INFO:root:Loss Value:0.0013
+INFO:root:Epoch 100/200
+INFO:root:Loss Value:0.0012
+INFO:root:Loss Value:0.0011
+INFO:root:Loss Value:0.0010
+INFO:root:Loss Value:0.0009
+INFO:root:Loss Value:0.0009
+INFO:root:Loss Value:0.0008
+INFO:root:Loss Value:0.0007
+INFO:root:Loss Value:0.0007
+INFO:root:Loss Value:0.0006
+INFO:root:Loss Value:0.0006
+INFO:root:Epoch 200/200
+INFO:root:Loss Value:0.0006
+
+INFO:root:Epoch 1450/2000, Threshold: 0.30
+INFO:root:Trainset Labeled Spearman Correlation: 0.7864
+INFO:root:Trainset Unlabeled Spearman Correlation: 0.6991
+INFO:root:Testset Spearman Correlation: 0.7223
+
+INFO:root:New Task Started...
+INFO:root:Experiment config:
+{
+    "exp_name": "debug_vq_ab_1",
+    "desc": "ablation_exp1",
+    "random_seed": 42,
+    "gpu_idx": 3,
+    "train_ratio": 0.75,
+    "labeled_sample_ratio": 0.4,
+    "batch_size": 16,
+    "main_dataset": "mtl-aqa",
+    "sub_dataset": "all",
+    "initial_threshold": 0.7,  
+    "threshold_decay": 0.998,   
+    "min_threshold": 0.3,      
+    "epochs": 2000,              
+    "lr": 5e-6,                  
+    "pretrain_epochs": 200,      
+    "pretrain_lr": 1e-5,         
+    "decopuling_dim": 128        
+}
+INFO:root:Nums of samples: Labeled Training: 423, Unlabled Training: 636, Test: 353
+INFO:root:Loss Value:0.0021
+INFO:root:Loss Value:0.0017
+INFO:root:Loss Value:0.0014
+INFO:root:Loss Value:0.0012
+INFO:root:Loss Value:0.0010
+INFO:root:Loss Value:0.0008
+INFO:root:Loss Value:0.0007
+INFO:root:Loss Value:0.0006
+INFO:root:Loss Value:0.0005
+INFO:root:Epoch 100/200
+INFO:root:Loss Value:0.0004
+INFO:root:Loss Value:0.0004
+INFO:root:Loss Value:0.0004
+INFO:root:Loss Value:0.0003
+INFO:root:Loss Value:0.0003
+INFO:root:Loss Value:0.0003
+INFO:root:Loss Value:0.0003
+INFO:root:Loss Value:0.0003
+INFO:root:Loss Value:0.0003
+INFO:root:Loss Value:0.0003
+INFO:root:Epoch 200/200
+INFO:root:Loss Value:0.0003
+
+INFO:root:Epoch 1600/2000, Threshold: 0.30
+INFO:root:Trainset Labeled Spearman Correlation: 0.8688
+INFO:root:Trainset Unlabeled Spearman Correlation: 0.6637
+INFO:root:Testset Spearman Correlation: 0.6648
+
+INFO:root:New Task Started...
+INFO:root:Experiment config:
+{
+    "exp_name": "debug_vq_ab_1",
+    "desc": "ablation_exp1",
+    "random_seed": 42,
+    "gpu_idx": 3,
+    "train_ratio": 0.75,
+    "labeled_sample_ratio": 0.4,
+    "batch_size": 16,
+    "main_dataset": "mtl-aqa",
+    "sub_dataset": "all",
+    "initial_threshold": 0.7,  
+    "threshold_decay": 0.998,   
+    "min_threshold": 0.3,      
+    "epochs": 2000,              
+    "lr": 5e-6,                  
+    "pretrain_epochs": 200,      
+    "pretrain_lr": 1e-5,         
+    "decopuling_dim": 128        
+}
+INFO:root:Nums of samples: Labeled Training: 423, Unlabled Training: 636, Test: 353
+INFO:root:Loss Value:0.0021
+INFO:root:Loss Value:0.0017
+INFO:root:Loss Value:0.0014
+INFO:root:Loss Value:0.0012
+INFO:root:Loss Value:0.0010
+INFO:root:Loss Value:0.0008
+INFO:root:Loss Value:0.0007
+INFO:root:Loss Value:0.0006
+INFO:root:Loss Value:0.0005
+INFO:root:Epoch 100/200
+INFO:root:Loss Value:0.0004
+INFO:root:Loss Value:0.0004
+INFO:root:Loss Value:0.0004
+INFO:root:Loss Value:0.0003
+INFO:root:Loss Value:0.0003
+INFO:root:Loss Value:0.0003
+INFO:root:Loss Value:0.0003
+INFO:root:Loss Value:0.0003
+INFO:root:Loss Value:0.0003
+INFO:root:Loss Value:0.0003
+INFO:root:Epoch 200/200
+INFO:root:Loss Value:0.0003
+
+INFO:root:Epoch 1300/2000, Threshold: 0.30
+INFO:root:Trainset Labeled Spearman Correlation: 0.8478
+INFO:root:Trainset Unlabeled Spearman Correlation: 0.6645
+INFO:root:Testset Spearman Correlation: 0.6568
+
+INFO:root:Epoch 1700/2000, Threshold: 0.30
+INFO:root:Trainset Labeled Spearman Correlation: 0.9087
+INFO:root:Trainset Unlabeled Spearman Correlation: 0.6505
+INFO:root:Testset Spearman Correlation: 0.6271
+
+INFO:root:New Task Started...
+INFO:root:Experiment config:
+{
+    "exp_name": "debug_vq_ab_1",
+    "desc": "ablation_exp1",
+    "random_seed": 42,
+    "gpu_idx": 3,
+    "train_ratio": 0.75,
+    "labeled_sample_ratio": 0.4,
+    "batch_size": 16,
+    "main_dataset": "mtl-aqa",
+    "sub_dataset": "all",
+    "initial_threshold": 0.7,  
+    "threshold_decay": 0.998,   
+    "min_threshold": 0.3,      
+    "epochs": 2000,              
+    "lr": 5e-6,                  
+    "pretrain_epochs": 200,      
+    "pretrain_lr": 1e-5,         
+    "decopuling_dim": 128        
+}
+INFO:root:Nums of samples: Labeled Training: 423, Unlabled Training: 636, Test: 353
+INFO:root:Loss Value:0.0021
+INFO:root:Loss Value:0.0017
+INFO:root:Loss Value:0.0014
+INFO:root:Loss Value:0.0012
+INFO:root:Loss Value:0.0010
+INFO:root:Loss Value:0.0008
+INFO:root:Loss Value:0.0007
+INFO:root:Loss Value:0.0006
+INFO:root:Loss Value:0.0005
+INFO:root:Epoch 100/200
+INFO:root:Loss Value:0.0004
+INFO:root:Loss Value:0.0004
+INFO:root:Loss Value:0.0004
+INFO:root:Loss Value:0.0003
+INFO:root:Loss Value:0.0003
+INFO:root:Loss Value:0.0003
+INFO:root:Loss Value:0.0003
+INFO:root:Loss Value:0.0003
+INFO:root:Loss Value:0.0003
+INFO:root:Loss Value:0.0003
+INFO:root:Epoch 200/200
+INFO:root:Loss Value:0.0003
+
+INFO:root:Epoch 1950/2000, Threshold: 0.30
+INFO:root:Trainset Labeled Spearman Correlation: 0.8585
+INFO:root:Trainset Unlabeled Spearman Correlation: 0.6373
+INFO:root:Testset Spearman Correlation: 0.6469
+
+INFO:root:New Task Started...
+INFO:root:Experiment config:
+{
+    "exp_name": "debug_vq_ab_1",
+    "desc": "ablation_exp1",
+    "random_seed": 42,
+    "gpu_idx": 3,
+    "train_ratio": 0.75,
+    "labeled_sample_ratio": 0.4,
+    "batch_size": 16,
+    "main_dataset": "mtl-aqa",
+    "sub_dataset": "all",
+    "initial_threshold": 0.7,  
+    "threshold_decay": 0.998,   
+    "min_threshold": 0.3,      
+    "epochs": 2000,              
+    "lr": 5e-6,                  
+    "pretrain_epochs": 200,      
+    "pretrain_lr": 1e-5,         
+    "decopuling_dim": 128        
+}
+INFO:root:Nums of samples: Labeled Training: 423, Unlabled Training: 636, Test: 353
+INFO:root:Loss Value:0.0021
+INFO:root:Loss Value:0.0017
+INFO:root:Loss Value:0.0014
+INFO:root:Loss Value:0.0012
+INFO:root:Loss Value:0.0010
+INFO:root:Loss Value:0.0008
+INFO:root:Loss Value:0.0007
+INFO:root:Loss Value:0.0006
+INFO:root:Loss Value:0.0005
+INFO:root:Epoch 100/200
+INFO:root:Loss Value:0.0004
+INFO:root:Loss Value:0.0004
+INFO:root:Loss Value:0.0004
+INFO:root:Loss Value:0.0003
+INFO:root:Loss Value:0.0003
+INFO:root:Loss Value:0.0003
+INFO:root:Loss Value:0.0003
+INFO:root:Loss Value:0.0003
+INFO:root:Loss Value:0.0003
+INFO:root:Loss Value:0.0003
+INFO:root:Epoch 200/200
+INFO:root:Loss Value:0.0003
+
+INFO:root:Trainset Labeled Spearman Correlation: 0.8224
+INFO:root:Trainset Unlabeled Spearman Correlation: 0.6445
+INFO:root:Testset Spearman Correlation: 0.6769
+INFO:root:Epoch 1410/2000, Threshold: 0.30
+
+
